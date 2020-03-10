@@ -1,0 +1,31 @@
+[{"test_name":"auto_detect",
+	"args":{"targetlanguage":"en",
+	"sourcetext":"vlk",
+	"validationtext":"wolf"}
+	},
+	{"test_name":"auto_detect",
+	"args":{"targetlanguage":"cs",
+	"sourcetext":"Nicht",
+	"validationtext":"ne"}
+	},
+	{"test_name":"manual_picker",
+	"args":{"sourcelanguage":"en",
+	"targetlanguage":"cs",
+	"sourcetext":"Wolf",
+	"validationtext":"vlk"}
+	},
+	{"test_name":"switch_language",
+	"args":{"sourcelanguage":"en",
+	"targetlanguage":"cs"}
+	},
+	{"test_name":"text_clear",
+	"args":{"sourcetext":"Wolf"}
+	},
+	{"test_name":"file_translation",
+	"args":{
+	"targetlanguage":"cs",
+	"sourcefile":"source.txt",
+	"validationfile":"target.txt"
+	}
+	}
+]
